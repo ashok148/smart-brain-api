@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "nodemon server.js"
+    "start": "serve -s build"
   },
   "keywords": [],
   "author": "",
@@ -17,6 +17,7 @@
     "heroku": "^7.59.0",
     "knex": "^0.95.11",
     "nodemon": "^2.0.13",
-    "pg": "^8.7.1"
+    "pg": "^8.7.1",
+    "serve": "^12.0.1"
   }
 }
